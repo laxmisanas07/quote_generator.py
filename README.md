@@ -1,58 +1,37 @@
-💡 Daily Quote Generator
-A simple and lightweight Python script that provides a random motivational quote every time it is executed. This project is perfect for beginners learning how to work with lists and the random module in Python.
+# 💡 Daily Quote Generator
 
-✨ Features
-Randomized Output: Uses Python's random module to ensure a fresh quote on every run.
+A simple and lightweight Python script that provides a random motivational quote every time it is executed.
 
-Easy to Use: No complex setup or external dependencies required.
+---
 
-Clean Formatting: Displays quotes in a visually appealing way in the terminal.
+## ✍️ Author
+Created with ❤️ by **Laxmi Sanas**.
 
-🚀 Getting Started
-Prerequisites
-Make sure you have Python 3.x installed on your system.
+---
 
-Installation & Usage
-Clone the repository:
+## ✨ Features
+* **Randomized Output:** Uses Python's `random` module to ensure a fresh quote on every run.
+* **Easy to Use:** No complex setup or external dependencies required.
+* **Clean Formatting:** Displays quotes in a visually appealing way in the terminal.
 
-Bash
+## 🚀 Getting Started
 
-git clone https://github.com/your-username/daily-quote-generator.git
-cd daily-quote-generator
-Run the script:
+### Prerequisites
+Make sure you have **Python 3.x** installed on your system.
 
-Bash
+### Installation & Usage
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/laxmi-sanas/daily-quote-generator.git](https://github.com/laxmi-sanas/daily-quote-generator.git)
 
-python main.py
-🛠️ How It Works
-The script utilizes a Python list to store strings of quotes. The core logic uses the random.choice() method:
+   📝 Included Quotes
+The script currently features inspiring words from various thinkers, focusing on:
 
-Python
+Persistence
 
-def get_random_quote():
-    return random.choice(quotes)
-This function picks one element from the quotes list with equal probability and returns it to the user.
+Self-belief
 
-📝 Included Quotes
-The script currently features inspiring words from various thinkers, including:
-
-Theodore Roosevelt
-
-Winston Churchill
-
-Steve Jobs
-
-...and more!
+Hard work
 
 🤝 Contributing
-Contributions are welcome! If you have a favorite quote you'd like to add or want to improve the code:
-
-Fork the Project.
-
-Create your Feature Branch (git checkout -b feature/AmazingQuote).
-
-Commit your Changes (git commit -m 'Add some AmazingQuote').
-
-Push to the Branch (git push origin feature/AmazingQuote).
-
-Open a Pull Request.
+Contributions are welcome! If you have a favorite quote you'd like to add or want to improve the code, feel free to fork this repository and submit a pull request.
